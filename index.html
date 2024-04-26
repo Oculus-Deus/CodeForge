@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeForge</title>
+  
+    <style>
+      .search {
+        height: 40px;
+        width: 200px;
+        border-radius: 15px;
+        border-style: solid;
+        border-color: #bb0a1e;
+        color: tomato;
+      /* caret-color: black; */
+        transition: background-color 0.60s, color 0.60s, border-color 0.60s;  
+      }
+
+      ::placeholder {
+        color: #880808;
+      }
+
+      .search:hover {
+        background-color: black;
+        color: blue;
+        border-color: chartreuse;
+      }
+
+      .search:hover::placeholder {
+        color: blue;
+      }
+
+
+    </style>
+  
+  </head>
+  <body>
+      <center>
+        <h1>CodeForge</h1>
+      </center>
+
+    <a href="HTML/Log-In.html">Go to Log In page</a>
+    <br>
+    <a href="HTML/Sign-Up.html">Go to Sign Up page</a>
+    <br>
+    <a href="HTML/Contact.html">Contact</a>
+    <br>
+    <a href="HTML/About-Us.html">About Us</a>
+
+    <center>
+      Search: <input
+      type="search" 
+      class="search"
+      name="search" 
+      id="search"
+      placeholder="Search"
+    </center>
+
+
+  </body>
+</html>
